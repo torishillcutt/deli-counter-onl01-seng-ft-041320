@@ -17,5 +17,5 @@ end
 
 def now_serving(katz_deli)
   katz_deli.shift
-  puts katz_deli[0]
+  katz_deli[0]
 end
