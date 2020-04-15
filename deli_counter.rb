@@ -1,7 +1,3 @@
 def line(katz_deli)
-  if katz_deli.length == 0
-     "The line is currently empty."
-  elsif katz.deli.legth > 0
-    "You are #{katz_deli.length} in line."
-  end
+  katz_deli.length == 0 || katz_deli.length > 0  ? "The line is currently empty." : "You are #{katz_deli.length} in line."
 end
