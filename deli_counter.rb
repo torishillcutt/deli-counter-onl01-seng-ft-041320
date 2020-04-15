@@ -9,5 +9,3 @@ def line(katz_deli)
      puts new_array.join(" ")
   end
 end
-
-
