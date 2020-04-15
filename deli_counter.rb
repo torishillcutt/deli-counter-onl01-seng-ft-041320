@@ -1,7 +1,9 @@
-def line(katz_deli)
+def line(katz_deli, name)
+  katz_deli = []
+  katz_deli << chomp.get(name)
   if katz_deli.length == 0
     "The line is currently empty."
   elsif katz_deli.length > 0
-    "You are #{katz_deli.length} in line."
+    katz_deli.each |name| "The Line is currently"
   end
 end
