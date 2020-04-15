@@ -1,4 +1,4 @@
-def line(katz_deli, name)
+def line(katz_deli)
   katz_deli = []
   katz_deli << chomp.get(name)
   if katz_deli.length == 0
