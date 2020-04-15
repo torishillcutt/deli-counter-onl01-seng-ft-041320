@@ -1,6 +1,6 @@
 def line(katz_deli)
- katz_deli.length > 0 ? :"The line is currently empty." 
+ katz_deli.length > 0 ? :"The line is currently empty."
 
-elsif 
+elsif
  end
 end
