@@ -6,7 +6,7 @@ def line(katz_deli)
      katz_deli.each_with_index do |name, index|
      new_array << "#{index}. #{name}"
      end
-     new_array.join(" , ")
+     puts new_array.join(" , ")
   end
 end
 
